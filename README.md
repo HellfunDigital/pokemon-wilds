@@ -1,5 +1,14 @@
 # Pokemon Wilds
 
+## Gym Builder Toolkit
+
+This repository now includes a lightweight gym builder module that lets you
+design a custom Pokemon gym directly from Python. Choose a specialty type,
+declare your gym's signature move, lay out rooms, and register trainers while
+respecting the rule that only two off-type Pokemon are allowed – and only if
+they know the signature move. See `gym_builder/gym.py` for the complete API and
+`tests/test_gym_builder.py` for usage examples.
+
 ![Pokemon Wilds](https://github.com/SheerSt/pokemon-wilds-public/blob/main/github1.png)
 
 ## How to Play
